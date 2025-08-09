@@ -182,5 +182,5 @@ Different signal behavior for interactive vs non-interactive modes. Child proces
 
 ---
 
-**Author**: [Your Name]  
+**Author**: Souihou.  
 **42 School Project** | **C Programming** | **System Programming**
