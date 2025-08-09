@@ -53,10 +53,9 @@ typedef struct s_cmd {
 
 1. **Lexical Analysis** (`lexer.c`) - Raw input → Token stream
 2. **Syntax Parsing** (`parser.c`) - Token stream → Command structures
-3. **AST Building** (`ast.c`) - Command structures → Execution tree
-4. **Command Execution** (`exec.c`) - Process creation, pipes, redirections
-5. **Built-ins/External** - Built-in dispatch or execve() calls
-6. **Cleanup** - Memory deallocation and file descriptor management
+3. **Command Execution** (`exec.c`) - Process creation, pipes, redirections
+4. **Built-ins/External** - Built-in dispatch or execve() calls
+5. **Cleanup** - Memory deallocation and file descriptor management
 
 ## ⚡ Features Implemented
 
